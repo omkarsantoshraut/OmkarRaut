@@ -1,0 +1,134 @@
+ul.socialIcons {
+  padding: 0;
+  text-align: center;
+  }
+
+  .socialIcons li {
+  background-color: yellow;
+  list-style: none;
+  display: inline-block;
+  margin: 4px;
+  border-radius: 2em;
+  overflow: hidden;
+  }
+
+  .socialIcons li a {
+  display: block;
+  padding: 0.5em;
+  min-width: 2.3em;
+  max-width: 2.3em;
+  height: 2.3em;
+  white-space: nowrap;
+  line-height: 1.5em; /*it's working only when you write text with icon*/
+  transition: 0.5s;
+  text-decoration: none;
+  font-family: arial;
+  color: #fff;
+  }
+
+  .socialIcons li i {
+  margin-right: 0.5em;
+  }
+
+  .socialIcons li:hover a {
+  max-width: 200px;
+  padding-right: 1em;
+  }
+
+  .socialIcons .facebook {
+  background-color: #3b5998;
+  box-shadow: 0 0 16px #3b5998;
+  }
+
+  .socialIcons .twitter {
+  background-color: #00aced;
+  box-shadow: 0 0 16px #00aced;
+  }
+
+  .socialIcons .instagram {
+  background-color: #cd486b;
+  box-shadow: 0 0 16px #cd486b;
+  }
+
+  .socialIcons .linkedin {
+  background-color: #3b5998;
+  box-shadow: 0 0 16px #3b5998;
+  }
+
+  .socialIcons .whatsapp {
+  background-color: green;
+  box-shadow: 0 0 16px green;
+  }
+
+
+
+
+
+
+#headername{
+  animation: color-change 20s infinite;
+  font-size: 35px;
+  font-family: 'Sigmar One', cursive;
+}
+
+
+@keyframes color-change {
+  0% {
+    color: orange;
+  }
+  10% {
+    color: red;
+  }
+  20% {
+    color: green;
+  }
+  30% {
+    color: #d35400;
+  }
+  40% {
+    color: blue;
+  }
+  50% {
+    color: white;
+  }
+  60% {
+    color: purple;
+  }
+  70% {
+    color: #00ff00;
+  }
+  80% {
+    color: yellow;
+  }
+  90% {
+    color: #ff00bf;
+  }
+  100% {
+    color: pink;
+  }
+}
+
+
+
+
+
+.degree,
+.hsc{
+  box-shadow: 0px 0px 30px 1px red;
+  margin-top: 2%;
+}
+.degree:hover,
+.hsc:hover{
+  box-shadow: 0px 0px 30px 1px green;
+}
+
+.degree p,
+.hsc p{
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.degree .row div,
+.hsc .row div{
+  padding: 50px;
+}
+

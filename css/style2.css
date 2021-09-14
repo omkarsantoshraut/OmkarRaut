@@ -1,0 +1,156 @@
+/*
+    DEMO STYLE
+*/
+
+/* @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fafafa;
+} */
+
+
+
+
+
+
+#content nav{
+    margin-top:50px; position:fixed;
+}
+
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+
+
+
+
+#sidebar {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 78vh;
+    z-index: 999;
+    background-image: linear-gradient(red,orange,yellow,green);
+    color: #fff;
+    transition: all 0.3s;
+    text-align: center;
+    margin-top:100px;
+    
+}
+
+#sidebar.active {
+    margin-left: -250px;
+}
+
+#sidebar .sidebar-header {
+    padding: 80px;
+}
+
+
+#sidebar ul p {
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+
+#sidebar ul li a:hover {
+    color: #7386D5;
+    background: #fff;
+}
+
+
+
+
+
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+
+#content {
+    width: calc(100% - 250px);
+    min-height: 100vh;
+    transition: all 0.3s;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#content.active {
+    width: 100%;
+}
+
+#content button {
+    margin-top: 35px;
+}
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -250px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+    #content {
+        width: 100%;
+    }
+    #content.active {
+        width: calc(100% - 250px);
+    }
+    #sidebarCollapse span {
+        display: none;
+    }
+
+    #content nav{
+        margin-top:75px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.edupic{
+    margin-top: -3px;
+    height: 800px;
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+    overflow: hidden;
+    background: #C04848;  /* fallback for old browsers */
+    background: linear-gradient(rgba(25, 0, 255, 0.479), rgba(9, 255, 0, 0.356)), url("../img/edu.jfif");  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(rgba(25, 0, 255, 0.479), rgba(9, 255, 0, 0.356)), url("../img/edu.jfif"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
