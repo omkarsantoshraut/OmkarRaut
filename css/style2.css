@@ -96,16 +96,17 @@ body {
 
 @media (max-width: 768px) {
     #sidebar {
-        margin-left: -250px;
+        margin-left: 0px;
     }
     #sidebar.active {
-        margin-left: 0;
+        margin-left: -250px;
     }
     #content {
         width: 100%;
+        width: calc(100% - 250px);
     }
     #content.active {
-        width: calc(100% - 250px);
+        width: calc(100% - 0px);
     }
     #sidebarCollapse span {
         display: none;
@@ -141,8 +142,36 @@ body {
     background-repeat: no-repeat;
 }
 
+.skillsedupic{
+    margin-top: -3px;
+    height: 800px;
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+    overflow: hidden;
+    background: #C04848;  /* fallback for old browsers */
+    background: linear-gradient(rgba(0, 0, 0, 0.479), rgba(0, 0, 0, 0.356)), url("../img/skill.jpg");  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(rgba(0, 0, 0, 0.479), rgba(0, 0, 0, 0.356)), url("../img/skill.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.skillsedupic p{
+    margin-top: -280px;
+}
 
-
+.projectedupic{
+    margin-top: -3px;
+    height: 800px;
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+    overflow: hidden;
+    background: #C04848;  /* fallback for old browsers */
+    background: linear-gradient(rgba(0, 0, 0, 0.479), rgba(0, 0, 0, 0.356)), url("../img/projects.jfif");  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(rgba(0, 0, 0, 0.479), rgba(0, 0, 0, 0.356)), url("../img/projects.jfif"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
 
 
 
