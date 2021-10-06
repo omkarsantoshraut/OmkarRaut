@@ -173,9 +173,47 @@ body {
     background-repeat: no-repeat;
 }
 
+.experienceedupic{
+    margin-top: -3px;
+    height: 800px;
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+    overflow: hidden;
+    background: #C04848;  /* fallback for old browsers */
+    background: linear-gradient(rgba(0, 0, 0, 0.479), rgba(0, 0, 0, 0.356)), url("../img/experience.jpg");  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(rgba(0, 0, 0, 0.479), rgba(0, 0, 0, 0.356)), url("../img/experience.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
 
+.extraedupic{
+    margin-top: -3px;
+    height: 800px;
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+    overflow: hidden;
+    background: #C04848;  /* fallback for old browsers */
+    background: linear-gradient(rgba(0, 0, 0, 0.479), rgba(0, 0, 0, 0.356)), url("../img/extra.jpg");  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(rgba(0, 0, 0, 0.479), rgba(0, 0, 0, 0.356)), url("../img/extra.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
 
-
+.contactedupic{
+    margin-top: -3px;
+    height: 800px;
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+    overflow: hidden;
+    background: #C04848;  /* fallback for old browsers */
+    background: linear-gradient(rgba(0, 0, 0, 0.479), rgba(0, 0, 0, 0.356)), url("../img/contact.jpg");  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(rgba(0, 0, 0, 0.479), rgba(0, 0, 0, 0.356)), url("../img/contact.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
 
 
 
