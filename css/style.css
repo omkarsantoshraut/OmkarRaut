@@ -62,13 +62,145 @@ ul.socialIcons {
 
 
 
+  /* RESUME BUTTON */
+  #MySidenav a {
+    position:fixed;
+    /* right: 90%; */
+    left:100%;
+    top:60%;
+
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    margin-left:10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px 5px 5px 5px;
+
+    transform-origin: 0% 0%;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg) translateX(-50%);
+    }
+
+    #MySidenav a:hover {
+    right: 0;
+    }
+
+    #about {
+    top: 400px;
+    background-color: green;
+    }
+    .mydiv {
+      width:100px;
+      height:51px;
+      /* color:black;
+      font-weight:bold; */
+      animation: myanimation 4s infinite;
+    }
+    
+    @keyframes myanimation {
+      0%{background-color: darkgreen}
+      /* 10%{background-color: #00ff00;} */
+      10%{background-color:green;}
+      /* 30%{background-color: #00aced;} */
+      20%{background-color:forestgreen;}
+      /* 50%{background-color: #ff00bf;} */
+      30%{background-color: seagreen}
+      /* 70%{background-color: blue;} */
+      40%{background-color:mediumseagreen;}
+      /* 90%{background-color: rgb(43, 255, 0);} */
+      50% {background-color: rgb(102, 214, 158);}
+      60%{background-color:mediumseagreen;}
+      70%{background-color: seagreen}
+      80%{background-color:forestgreen;}
+      90%{background-color:green;}
+      100%{background-color:rgb(2, 68, 2);}
+    }
 
 
 
+    
 #headername{
   animation: color-change 20s infinite;
-  font-size: 35px;
-  font-family: 'Sigmar One', cursive;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* sidebar */
+#mySidenav a {
+  position: absolute;
+  left: -215px;
+  margin-top: 20%;
+  transition: 0.3s;
+  padding: 13px;
+  width: 230px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#about {
+  top: 20px;
+  background-color:red;
+}
+
+#blog {
+  top: 80px;
+  background-color: blue;
+}
+
+#projects {
+  top: 140px;
+  background-color: #17dd4f;
+}
+
+#contact {
+  top: 200px;
+  background-color:brown;
+}
+
+
+/* image  */
+.caption div {
+  box-shadow: 0 0 5px #C8C8C8;
+  transition: all 0.3s ease 0s;
+}
+.img-circle {
+  border-radius: 50%;
+}
+.img-circle {
+  border-radius: 3px solid black;
+}
+
+.ratio {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 0;
+  padding-bottom: 80%;
+  position: relative;
+  width: 80%;
+}
+.img-circle {
+  border-radius: 50%;
+}
+.img-responsive {
+  display: block;
+  /* height: auto;
+  max-width: 100%; */
 }
 
 
@@ -245,27 +377,7 @@ ul.socialIcons {
 }
 
 
-.popup-btn{
-  position: fixed;
-  width: 100px;
-  left: 100%;
-  top: 70%;
-  color: white;
-  font-weight: bold;
-  border: 0;
-  background-color: green;
-  padding: 1%;
-  transform-origin: 0% 0%;
-  -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg) translateX(-50%);
-}
 
-.popup-btn:hover{
-  color: orange;
-}
 
 
 
