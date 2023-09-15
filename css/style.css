@@ -37,27 +37,22 @@ ul.socialIcons {
 
   .socialIcons .facebook {
   background-color: #3b5998;
-  box-shadow: 0 0 16px #3b5998;
   }
 
   .socialIcons .twitter {
   background-color: #00aced;
-  box-shadow: 0 0 16px #00aced;
   }
 
   .socialIcons .instagram {
   background-color: #cd486b;
-  box-shadow: 0 0 16px #cd486b;
   }
 
   .socialIcons .linkedin {
   background-color: #3b5998;
-  box-shadow: 0 0 16px #3b5998;
   }
 
   .socialIcons .whatsapp {
   background-color: green;
-  box-shadow: 0 0 16px green;
   }
 
 
@@ -96,6 +91,8 @@ ul.socialIcons {
     top: 400px;
     background-color: green;
     }
+
+
     .mydiv {
       width:100px;
       height:51px;
@@ -122,16 +119,6 @@ ul.socialIcons {
       90%{background-color:green;}
       100%{background-color:rgb(2, 68, 2);}
     }
-
-
-
-    
-#headername{
-  animation: color-change 20s infinite;
-  font-size: 30px;
-  font-weight: bold;
-  font-family: "Times New Roman", Times, serif;
-}
 
 /* sidebar */
 #mySidenav a {
@@ -199,10 +186,16 @@ ul.socialIcons {
 }
 .img-responsive {
   display: block;
-  /* height: auto;
-  max-width: 100%; */
 }
 
+
+/* NAV BAR START */
+
+#headername{
+  animation: color-change 20s infinite;
+  font-size: 30px;
+  font-weight: bold;
+}
 
 @keyframes color-change {
   0% {
@@ -240,11 +233,27 @@ ul.socialIcons {
   }
 }
 
+/* NAV BAR END */
+
+
+/* ABOUT START */
+
+.about-box {
+  background-color: darkslategray;
+  text-align: center;
+  padding: 50px;
+  border: 3px solid tan;
+  color:white;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+/* ABOUT START */
 
 
 
 
-.degree,
+/* .degree,
 .hsc{
   box-shadow: 0px 0px 30px 1px red;
   margin-top: 2%;
@@ -262,7 +271,7 @@ ul.socialIcons {
 .degree .row div,
 .hsc .row div{
   padding: 50px;
-}
+} */
 
 
 

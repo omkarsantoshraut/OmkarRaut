@@ -6,439 +6,383 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <!-- Add icon library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
 
     <link rel="stylesheet" href="css/style.css">
-
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap" rel="stylesheet">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="css/style2.css">
 
     <title> Projects | Omkar Raut </title>
 
+    <style>
+        body {
+            font-family: 'Roboto';
+        }
+    </style>
+
   </head>
   <body>
-    <a href="img/Omkar_Raut__Resume.pdf" target="_blank"><button class="popup-btn">Resume</button></a>
-    <div>
-        <nav class=" navbar-expand-lg navbar-dark fixed-top" style="background-color: black;" data-aos="fade-down" data-aos-duration="1500">
+    <!-- BAV BAR SECTION START -->
+    <section>
+        <nav class="navbar-expand-lg navbar-dark bg-dark fixed-top">
             <div class="container-fluid">
-              <div class="row pt-2 pb-2">
-                <div class="col-md-6 text-center">
-                  <a class="navbar-brand" id="headername"  href="index.html">Omkar Raut</a>
-                  <span class="float-right">
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                  </button>
-                </span>
-                </div>
-                <div class="col-md-6 text-center">
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html">About Me</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="education.html">Education</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="skills.html">Skills</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active text-warning" style="font-weight: bold;" aria-current="page" href="projects.html">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="experience.html">Experience</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="extra.html">Extra Curriculum</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              Blog
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                              <li><a class="dropdown-item" href="https://medium.com/machine-learning-concepts" target="_blank">Medium</a></li>
-                              <li><a class="dropdown-item" href="https://omkarraut.substack.com/" target="_blank">Substack</a></li>
+                <div class="row pt-2 pb-2">
+                    <div class="col-lg-6 text-center">
+                        <a class="navbar-brand" id="headername" href="index.html">Omkar Raut</a>
+                        <span class="float-end"><button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation"><span
+                                    class="navbar-toggler-icon"></span></button></span>
+                    </div>
+                    <div class="col-lg-6 text-center">
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mb-2 mb-lg-0">
+                                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                                <li class="nav-item"><a class="nav-link" href="about.html">About Me</a></li>
+                                <li class="nav-item"><a class="nav-link" href="education.html">Education</a></li>
+                                <li class="nav-item"><a class="nav-link" href="skills.html">Skills</a></li>
+                                <li class="nav-item"><a class="nav-link active text-warning" style="font-weight: bold;" href="projects.html">Projects</a></li>
+                                <li class="nav-item"><a class="nav-link" href="experience.html">Experience</a></li>
+                                <li class="nav-item"><a class="nav-link" href="extra.html">Extra Curriculum</a></li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">Blog</a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="https://medium.com/machine-learning-concepts"
+                                                target="_blank">Medium</a></li>
+                                        <li><a class="dropdown-item" href="https://omkarraut.substack.com/"
+                                                target="_blank">Substack</a></li>
+                                    </ul>
+                                </li>
                             </ul>
-                          </li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!-- BAV BAR SECTION END -->
+
+    <!-- HEADER SECTION START -->
+    <section>
+        <div class="container-fluid mt-4 pt-5 pb-5" style="background-color:#545677;">
+            <div class="container ml-5 mr-5">
+                <div class="row pt-3 pb-3">
+                    <div class="col-lg-6 col-md-12">
+                        <img src="img/ce.jpg" class="img-responsive mx-auto d-block img-fluid" style="box-shadow: 5px 5px 25px 2px purple; max-height: 500px;" alt="">
+                    </div>
+                    <div class="col-lg-6 col-md-12 pt-3 d-flex align-items-center justify-content-center text-light text-center">
+                        <div style="padding: 0px 30px;" class="display-5 fw-bold">Discovering Work <hr> <div class="lead pt-3">Innovative Projects That Define My Expertise.</div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- HEADER SECTION END -->
+
+    <!-- ONGOING PROJECT INFO SECTION START -->
+    <section style="background-color:darkcyan;">
+        <div class="container-fluid pt-3 pb-5">
+            <h1 class="text-center mb-4 text-light display-4 fw-bold"><u>Ongoing project</u></h1>
+            <div class="container ml-5 mr-5"
+                style="border: 1px white solid; box-shadow: 0px 0px 10px 1px white">
+                <div class="row pt-3 pb-3">
+                    <div class="col-lg-6 col-md-12">
+                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="img/alpha1.jpg" class="img-responsive mx-auto d-block img-fluid" alt="..." style="max-height: 500px;">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="img/alpha2.jpg" class="img-responsive mx-auto d-block img-fluid" alt="..." style="max-height: 500px;">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="img/alpha3.jpg" class="img-responsive mx-auto d-block img-fluid" alt="..." style="max-height: 500px;">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="img/alpha4.jpg" class="img-responsive mx-auto d-block img-fluid" alt="..." style="max-height: 500px;">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="img/alpha5.jpg" class="img-responsive mx-auto d-block img-fluid" alt="..." style="max-height: 500px;">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="img/alpha6.jpg" class="img-responsive mx-auto d-block img-fluid" alt="..." style="max-height: 500px;">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="img/alpha7.jpg" class="img-responsive mx-auto d-block img-fluid" alt="..." style="max-height: 500px;">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 pt-3 d-flex align-items-center justify-content-center text-light text-center">
+                        <div style="padding: 0px 30px;" class="display-5 fw-bold">Alpha <br><div class="lead pt-3">
+                            Creating a social media application using Flutter for all type of devices. Using python/Flask for backend and MongoDB for storing the data.
+                            Successfully created the authentication flow of the application by setting cookies and option to create a new account.
+                        </div></div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ONGOING PROJECT INFO SECTION END -->
+
+    <!-- PROJECTS LIST SECTION START -->
+    <section>
+        <div class="container-fluid" style="background-color: #EB9FEF;">
+            <div id="cards_landscape_wrap-2" style="background-color: #EB9FEF;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                            <div class="card-flyer">
+                                <div class="text-box">
+                                    <div class="image-box">
+                                        <img src="img/car.png" alt="" />
+                                    </div>
+                                    <div class="text-container">
+                                        <h6>Car Price Prediction Using ML</h6>
+                                        <p style="text-align:left;">
+                                            Created a flask project using machine leaning model in order to predict the price of the old cars as per the history data that it is having.
+                                        </p>
+                                        <p>
+                                            <a class="btn btn-primary m-1" href="https://github.com/omkarsantoshraut/CarPricePrediction" target="_blank" role="button">Read More</a>
+                                            <a class="btn btn-success m-1" href="https://www.youtube.com/embed/E0KghN60Hb0?si=xUQhW2UNUDCBExMO" target="_blank" role="button">Demo Video</a>
+                                        </p>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                       </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                            <div class="card-flyer">
+                                <div class="text-box">
+                                    <div class="image-box">
+                                        <img src="img/sa.png" alt="" />
+                                    </div>
+                                    <div class="text-container">
+                                        <h6>Sentiment Ananlysis of tweets</h6>
+                                        <p style="text-align:left;">
+                                            Developed the streamlit application to analyse the tweets of any person. It will basically fetch the tweets from the api and do it's analysis...
+                                        </p>
+                                        <p>
+                                            <a class="btn btn-primary m-1" href="https://github.com/omkarsantoshraut/SA" target="_blank" role="button">Read More</a>
+                                            <a class="btn btn-success m-1" href="https://www.youtube.com/embed/nj_eVMxFd58?si=qDIi4E4V7d32rEld" target="_blank" role="button">Demo Video</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                            <div class="card-flyer">
+                                <div class="text-box">
+                                    <div class="image-box">
+                                        <img src="img/web.jpg" alt="" />
+                                    </div>
+                                    <div class="text-container">
+                                        <h6>Full stack website using Django</h6>
+                                        <p style="text-align:left;">
+                                            Created the full stack website for the CA office using the Django framework. It was the first web devlopment project.
+                                        </p>
+                                        <p>
+                                            <a class="btn btn-primary m-1" href="https://github.com/omkarsantoshraut/Ram-Bhanawase-and-Associates" target="_blank" role="button">Read More</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                            <div class="card-flyer">
+                                <div class="text-box">
+                                    <div class="image-box">
+                                        <img src="img/note.png" alt="" />
+                                    </div>
+                                    <div class="text-container">
+                                        <h6>Note Application using Flutter</h6>
+                                        <p style="text-align:left;">
+                                            Created a note application for all type of devices using Flutter. Just login on any device using the email and use it.
+                                        </p>
+                                        <p>
+                                            <a class="btn btn-primary m-1" href="https://github.com/omkarsantoshraut/noteapplication_ui_flutter" target="_blank" role="button">Read More</a>
+                                            <a class="btn btn-success m-1" href="https://www.youtube.com/watch?v=5Wff1x71DUo" target="_blank" role="button">Demo Video</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                            <div class="card-flyer">
+                                <div class="text-box">
+                                    <div class="image-box">
+                                        <img src="img/api.webp" alt="" />
+                                    </div>
+                                    <div class="text-container">
+                                        <h6>Note Application APIs using Flask</h6>
+                                        <p style="text-align:left;">
+                                            Created a project using a Flack framework in order to perform the backend operations for the note application built in Flutter.
+                                        </p>
+                                        <p>
+                                            <a class="btn btn-primary m-1" href="https://github.com/omkarsantoshraut/noteapplication_backend_flask" target="_blank" role="button">Read More</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                            <div class="card-flyer">
+                                <div class="text-box">
+                                    <div class="image-box">
+                                        <img src="img/unitConversion.jpeg" alt="" />
+                                    </div>
+                                    <div class="text-container">
+                                        <h6>Unit Conversion App Using SwiftUI</h6>
+                                        <p style="text-align:left;">
+                                            Created an app for iOS devices using SwiftUI in order to convert the length units. Used Swift language in order to create this app.
+                                        </p>
+                                        <p>
+                                            <a class="btn btn-primary m-1" href="https://github.com/omkarsantoshraut/UnitConversion-iOS" target="_blank" role="button">Read More</a>
+                                            <a class="btn btn-success m-1" href="https://youtube.com/embed/TVVglKL0heo?si=upG3SbeEOxCepHrd" target="_blank" role="button">Demo Video</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                            <div class="card-flyer">
+                                <div class="text-box">
+                                    <div class="image-box">
+                                        <img src="img/split.webp" alt="" />
+                                    </div>
+                                    <div class="text-container">
+                                        <h6>WeSplit iOS app using SwiftUI</h6>
+                                        <p style="text-align:left;">
+                                            Created an application using SwiftUI in order to split the bill among all friends and to show the amount need to pay by each.
+                                        </p>
+                                        <p>
+                                            <a class="btn btn-primary m-1" href="https://github.com/omkarsantoshraut/WeSplit-iOS" target="_blank" role="button">Read More</a>
+                                            <a class="btn btn-success m-1" href="https://www.youtube.com/embed/Wq4QVOOSlRQ?si=hJUt1-ngPRfCr5vv" target="_blank" role="button">Demo Video</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                            <div class="card-flyer">
+                                <div class="text-box">
+                                    <div class="image-box">
+                                        <img src="img/calculator.png" alt="" />
+                                    </div>
+                                    <div class="text-container">
+                                        <h6>Calculator app using Flutter</h6>
+                                        <p style="text-align:left;">
+                                            Developed a calculator application using Flutter for app type of devices. It is running on any type of device smoothly.
+                                        </p>
+                                        <p>
+                                            <a class="btn btn-primary m-1" href="https://github.com/omkarsantoshraut/Calculator---Flutter-App" target="_blank" role="button">Read More</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                            <div class="card-flyer">
+                                <div class="text-box">
+                                    <div class="image-box">
+                                        <img src="img/calculator.png" alt="" />
+                                    </div>
+                                    <div class="text-container">
+                                        <h6>Calculator app using Swift</h6>
+                                        <p style="text-align:left;">
+                                            Created a calculator for the iOS devices using swift programming language. It is fully responsive iOS application.
+                                        </p>
+                                        <p>
+                                            <a class="btn btn-primary m-1" href="https://github.com/omkarsantoshraut/CalculatorApp" target="_blank" role="button">Read More</a>
+                                            <a class="btn btn-success m-1" href="https://www.youtube.com/embed/nbG7o-tKri4?si=00qDgQNnO7UV6zFu" target="_blank" role="button">Demo Video</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- PROJECTS LIST SECTION END -->
+
+    <!-- SIH PROJECT SECTION START -->
+    <section>
+        <div class="container-fluid pt-3 pb-5" style="background-color:yellowgreen;">
+            <h1 class="text-center mb-4 text-light display-4 fw-bold"><u>Winner in internal SIH 2020</u></h1>
+            <div class="container ml-5 mr-5"
+                style="border: 1px white solid; box-shadow: 0px 0px 10px 1px white">
+                <div class="row pt-3 pb-3">
+                    <div class="col-lg-6 col-md-12">
+                        <img src="img/sih1.JPG" class="img-responsive mx-auto d-block img-fluid" style="box-shadow: 5px 5px 25px 2px purple; max-height: 500px;" alt="">
+                    </div>
+                    <div class="col-lg-6 col-md-12 pt-3 d-flex align-items-center justify-content-center text-light text-center">
+                        <div style="padding: 0px 30px;" class="display-5 fw-bold"><div class="lead pt-3">
+                            Developed a STUDENT GRIEVANCE SUPPORT SYSTEM platform during the internal SMART INDIA HACKATHON 2020. We have developed a project in 72 hrs and we were the winner in internal SIH 2020.
+                            <p class="pt-2">
+                                <a class="btn btn-primary m-1" href="https://github.com/omkarsantoshraut/CalculatorApp" target="_blank" role="button">Read More</a>
+                            </p>
+                        </div></div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SIH PROJECT SECTION END -->
+
+    <!-- FOOTER SECTION START -->
+    <section>
+        <footer class="text-center text-lg-start pt-3" style="background-color:black;">
+            <div class="container" data-aos="zoom-in" data-aos-duration="2000">
+                <div class="row">
+                    <h5 class="text-uppercase font-weight-bold text-center mb-3 text-light" style="font-family:Roboto-black;">Follow me on social media</h5>
+                    <ul class="socialIcons">
+                        <li class="linkedin"><a href="https://www.linkedin.com/in/omkar-santosh-raut/" target="_blank"><i class="fa fa-fw fa-linkedin"></i>LinkedIn</a></li>
+                        <li class="github"><a href="https://github.com/omkarsantoshraut" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a></li>
+                        <li class="facebook"><a href="https://www.facebook.com/omkar.raut.94849/" target="_blank"><i class="fa fa-fw fa-facebook"></i>Facebook</a></li>
+                        <li class="twitter"><a href="https://twitter.com/Omkar56694166" target="_blank"><i class="fa fa-fw fa-twitter"></i>Twitter</a></li>
+                        <li class="instagram"><a href="https://www.instagram.com/omkaraut333/" target="_blank"><i class="fa fa-fw fa-instagram"></i>Instagram</a></li>
+                        <li class="whatsapp"><a href="https://wa.me/917559326095?text=Hello,%20Omkar.%20I%20want%20to%20talk%20to%20you." target="_blank"><i class="fa fa-fw fa-whatsapp"></i>WhatsApp</a></li>
                     </ul>
-                    </div>
-                </div>
-              </div>
-            </div>
-        </nav>
-    </div>
-    <br><br><br>
     
-    <div class="wrapper">
-        <!-- Sidebar  -->
-        <nav id="sidebar" data-aos="fade-down" data-aos-duration="1500">
-            <div class="sidebar-header">
-                
+                </div>
             </div>
-
-            <ul class="list-unstyled components">
-                <p><a href="projects.html" style="color:white;">Projects</a></p>
-                <li><a href="#ml" class="nav-link scrollto"><i class="bx bx-home"></i> <span>Machine learning models</span></a></li>
-                <li><a href="#web" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Website development</span></a></li>
-                <li><a href="#sih" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>SIH project</span></a></li>
-            </ul>
-        </nav>
-
-
-        
-        
-
-        
-
-        <!-- Page Content  -->
-        <div id="content">
-            <nav>
-                <div class="container-fluid">
-
-                    <button type="button" id="sidebarCollapse" class="btn btn-info">
-                        <i class="fa fa-align-left"></i>
-                    </button>
-                </div>
-            </nav>
-        </div>
-
-
-
-        
-    </div>
-
-    <div class="projectedupic d-flex align-items-center justify-content-center" data-aos="zoom-out" data-aos-duration="2000">
-        
-    </div>
-
-    <div class='container'>
-        <div id="ml">
-            <h1 data-aos="fade-up" data-aos-duration="1500">Machine Learning Models</h1><br>
-            <p style="text-indent: 15%;" data-aos="fade-up" data-aos-duration="1500"> 
-                After successfully learning the python, I had started to learn machine learning concepts at the end of 
-                the second year of my graduation. After learning some concepts of machine learning, I came to know that I have very much interest
-                in machine learning topics. Also, I had read about the future of machine learning. Due to my interest, I had stated to learn 
-                machine learning concepts. I used to learn the particular concept and then implement it for the practice. I had used jupyter notebook
-                to do the practice and later on I came to know about Kaggle platform. I used it lot more and then I started to make the notebooks 
-                on Kaggle. There are many notebooks in my profile related to different topics of machine learning. I have covered many topics of 
-                machine learning such as data clearning, feature engineering, machine learning models, data visualizations, etc. 
-                <br><br>
-                <b>link: <a href="https://www.kaggle.com/omkarsantoshraut/code" target="_blank">Click here!</a></b>
-                <br><br>
-                Along with these machine learning models, I have done small projects. The name of the projects and the link is as follows:</br>
-                
-                <ul>
-                    <li>House price prediction</li>
-                    
-                    <p style="text-indent: 15%;" data-aos="fade-up" data-aos-duration="1500">
-                        The statement of the problem I got on kaggle. The data is provided by them that having 81 columns.  So, to
-                        do the task, first I have used feature engineering and selected the 10 columns which are highly corelated.
-                        Also, I have done the data visualization of the correlation values and then selected first 10 features. By using
-                        these features, I have developed a simple machine learning model to predict the price of the house based on the 
-                        selected parameters.
-                    </p>
-
-                    <li><a href="https://www.kaggle.com/omkarsantoshraut/identify-handwritten-digits" target="_blank">Identification of handwritten digits</a></li>
-                    <p style="text-indent: 15%;" data-aos="fade-up" data-aos-duration="1500">
-                        I had given the data of images of digits and the tagged labels of correct digit. I had to develop a machine learning model
-                        to predict the digit by providing the image of the digit. The every digit is shoen in the 8X8 format and I had developed 
-                        a new dataframe of 64 data attributes and one last column with tagged value. Once I had got a data, I had developed a machine
-                        learning model that is predicting the digit by seeing only picture of the digit.
-                    </p>
-                    
-                    <li>Fake news classification using NLP</li>
-                    <p style="text-indent: 15%;" data-aos="fade-up" data-aos-duration="1500">
-                        In this problem, I had provided the heading of the news and its tag i.e. whether it is fake or not. Before going to build a model
-                        I had done the text cleaning. After cleaning the text data I have converted then into the vectors of the numbers using TF-IDF. After
-                        that I had developed a simple machine learning model that is predicting the kind of news by providing just the text of the news.
-                    </p>
-                
-                </ul>
-            </p>
-        </div><hr><br><br>
-
-        <div id = 'sa'>
-            <h1 data-aos="fade-up" data-aos-duration="1500">Sentiment Ananlysis of tweets</h1><br>
-            <p style="text-indent: 15%;" data-aos="fade-up" data-aos-duration="1500">
-                I have developed a small project which can do the analysis of the tweets of the provided person and we can figure out the much information
-                from that analysis. The application has some features that are as follows:
-                <ol>
-                    <li data-aos="fade-up" data-aos-duration="1500">
-                        <b>See Tweets: </b> I have used tweepy library to fatch the tweets of provided user from the twitter. I have added two options 
-                        to see the fetched tweets. We can see then in table or in list format.
-                    </li>
-                    <li data-aos="fade-up" data-aos-duration="1500">
-                        <b>Sentiment Analysis of tweets:</b> After providing the inputs, we can do the analysis of the tweets. Firstly, it will show 
-                        the number of fetched tweets, number of positive tweets, number of neutral tweets, and the number of negative tweets. Then, it
-                        will show the bar graph of the above thing. It will automatically creatte a word cloud of the fetched tweets. At the last, there
-                        will be two graphs showing number of tweets VS polarity line graph and polarity VS subjectivity respectively.
-                    </li>
-                    <li data-aos="fade-up" data-aos-duration="1500">
-                        <b>See Data:</b> Here, you will get a data with tweets, subjectivity, polarity, and Analysis (positive/neutral/negative). Also, it will be
-                        available with all data, positive tweets, neutral tweets, and negative tweets. We can download that data in the csv format.
-                    </li>
-                </ol>
-                
-        </div><hr>
-        
-        <div id="web">
-            <h1 data-aos="fade-up" data-aos-duration="1500">Website for CA office and my own website using Django</h1><br>
-            <p style="text-indent: 15%;" data-aos="fade-up" data-aos-duration="1500">
-                I learnt web developemnt in the second year of my graduation, and then extended it to flask and django. As a web development project,
-                I have developed a website for CA office from scratch. First, I learnt front-end development by learning HTML, CSS, JavaScript, BootStrap,
-                etc. After some perfection in this, I learnt backend development of websites by learning PHP, SQL, etc. Due to high interest in data science
-                field, I recieved a good knowledge of python programming languages. Hence, then I have learnt  python web frameworks such as Flask and 
-                Django. Now, I have good knowledge of flask and django and I can make the whole backend in python.
-                <br><br>
-                <h2 data-aos="fade-up" data-aos-duration="1500">Website for CA office:</h2>
-                <div class="row">
-                    <div class="col-md-6" data-aos="fade-up" data-aos-duration="1500">
-                        After getting a good knowledge of front-end and the backend using php, I decided to do a project to test my skills of web
-                        development. I decided to make a website for CA office, and I was in touch of one of the CA office and I was getting the 
-                        information from them. I have used the following technologies to build this website.
-                        <br><br>
-                        <b>Link of the website: <a href="https://rambhanawaseandassociates.000webhostapp.com/" target="_blank">Click here!</a></b>
-                        <br><br>
-                        <ul data-aos="fade-up" data-aos-duration="1500">
-                            <li><b>Front-end technologies:</b>
-                                <ul>
-                                    <li>HTML</li>
-                                    <li>CSS</li>
-                                    <li>JavaScript</li>
-                                    <li>BootStrap</li>
-                                </ul>
-                            </li>
-                        </ul>
-                        <ul data-aos="fade-up" data-aos-duration="1500">
-                            <li><b>Back-end technologies:</b>
-                                <ul>
-                                    <li>PHP</li>
-                                    <li>SQL</li>
-                                    <li>MySQL Database</li>
-                                </ul>
-                            </li>
-                        </ul>
-                        <br>
-                        Along with the user view, I have developed the admin panel for the admin from where admin can manage the whole website. 
-                        The admin can change the all content from their login. There are some sections in the website such as guidelines, useful links,
-                        etc. So, admin can change it accordingly when he/she wants. This project helped me to get some experience in this field.
-                        Also, I got some new things to learn during the development of this project.
-                    </div>
-                    <div class="col-md-6" data-aos="fade-up" data-aos-duration="1500">
-                        <iframe src="https://rambhanawaseandassociates.000webhostapp.com/" frameborder="0" width="100%" height="100%"></iframe>
-                    </div>
-                </div> 
-            </p>
-
-            <br><br>
-            <h2 data-aos="fade-up" data-aos-duration="1500">My own Django website:</h2>
-                <div class="row">
-                    <div class="col-md-6" >
-                        <img src="img/pw.png" class="img-fluid" alt="" data-aos="fade-up" data-aos-duration="1500">
-                        <img src="img/pw1.png" class="img-fluid" alt="" data-aos="fade-up" data-aos-duration="1500">
-                    </div>
-                    <div class="col-md-6" data-aos="fade-up" data-aos-duration="1500">
-                        After learning some concepts of machine learning, I came to now that the django and flask are very important to deploy the
-                        machine learning models into the websites. Then I learnt the django and flask. After learning django, I have created my personal 
-                        wesite using django. The whole backend is in pthon and I am unable to find the free web hosting that supports django. Hence I have
-                        not hosted it. The source code is available on github. The website having the admin login from where he/she can manage the whole website.
-                        <br><br>
-                        <b>Source code of website: <a href="https://github.com/omkarsantoshraut/MyWebsite" target="_blank">Click here!</a></b>
-                        <br><br>
-                        <ul data-aos="fade-up" data-aos-duration="1500">
-                            <li><b>Front-end technologies:</b>
-                                <ul>
-                                    <li>HTML</li>
-                                    <li>CSS</li>
-                                    <li>JavaScript</li>
-                                    <li>BootStrap</li>
-                                </ul>
-                            </li>
-                        </ul>
-                        <ul data-aos="fade-up" data-aos-duration="1500">
-                            <li><b>Back-end technologies:</b>
-                                <ul>
-                                    <li>Python</li>
-                                    <li>SQL</li>
-                                    <li>MySQL Database</li>
-                                    <li>PostgreSQL Database</li>
-                                </ul>
-                            </li>
-                        </ul>
-                        <br>
-                        Django is very easy web framework, and it will take less time to develope a project. It will save so much time because some functionalities
-                        will come by default with django. The admin page will come by default, and we can use it to do the changes in the other pages of the websites.
-
-                    </div>
-                    
-                </div>
-        </div>
-        <hr><br><br>
-
-        <div id="sih">
-            <h1 data-aos="fade-up" data-aos-duration="1500">Student Grievance Support System</h1><br>
-            <p style="text-indent: 15%;" data-aos="fade-up" data-aos-duration="1500">
-                I with my team had participated in the internal <b>Smart India Hackethon 2020 (SIH)</b> with the problem statement of student 
-                grievance support system. We have developed this project within 72 hourse and became the winner in internal Smart India Hackethon 2020 
-                by competing 150+ teams. We have developed the entire platform in 72 hours with the folloing key features.
-                <ul>
-                    <li data-aos="fade-up" data-aos-duration="1500">
-                        The first thing is the user (i.e. student, teacher, parents) can make thier login on the pltform to submit the grievance.
-                        Without login they can't send the grievance. Also, the respective authority should be logged in to resolve the grievance.
-                    </li>
-                    <li data-aos="fade-up" data-aos-duration="1500">
-                        After successful login, user have to build thier profile on the platform. Because after submitting the grievance the profile 
-                        is also shared with the respective authority. So, he/she can resolve your grievance efficiently.
-                    </li>
-                    <li data-aos="fade-up" data-aos-duration="1500">
-                        The all activities of the users are notified to the user via message and mails. Also, the user and authority can see the history of the user.
-                        Also, user can track thier grievance and can come to know in which state the grievance is.
-                    </li>
-                    <li data-aos="fade-up" data-aos-duration="1500">
-                        The respective authority can heck the grievance and the shared files and can make the certain action on it. He/she can complete the grievance
-                        by sending the specific mesage and documents.
-                    </li>
-                    <li data-aos="fade-up" data-aos-duration="1500">
-                        If the user is not satisfied with the solution then he can generate the same grievance by just one click. But the past activities will store
-                        in the history.
-                    </li>
-                    <li data-aos="fade-up" data-aos-duration="1500">
-                        If the particular authority is not solving the problems and if the grievace will be their for 3-5 days in his login then he will get the notification
-                        on his mobile phone and mail. If then also, he is not solving the problems and the grievance is there more than five days then the higher
-                        authority will get a notification regarding the same, and then higher authority will look into it and solve the issue.
-                    </li>
-                    <li data-aos="fade-up" data-aos-duration="1500">
-                        The authorities are divided into three big categories such as department, college, and the University. Again these are divide into different
-                        parts based on the grievance type. The user have to select the category of his/her grievance and accordingly it will go to respective authority.
-                        If the user will send it to the wrong authority, then authority can send it to the correct person.
-                    </li>
-                    <li data-aos="fade-up" data-aos-duration="1500">
-                        Also, the authority can send the instructions or notices to the right audience automatically. The person who is at department level can send the 
-                        notices to the students of his department only.
-                    </li>
-                </ul>
-                These are the features that we had made during the 72 hours. After submitting the project to the SIH authorities they have given the
-                winner position to us among the 150+ teams. We have got a certificates from the vice chancellor of the university. <br><br>
-                
-                <div class="row">
-                    <div class="col-md-4" data-aos="fade-up" data-aos-duration="1500">
-                        <a href="img/sih1.jpg" target="_blank"><img src="img/sih1.JPG" class="img-fluid" alt=""></a>
-                    </div>
-                    <div class="col-md-4" data-aos="fade-up" data-aos-duration="1500">
-                        <a href="img/sih2.jpg" target="_blank"><img src="img/sih2.jpg" class="img-fluid" alt=""></a>
-                    </div>
-                    <div class="col-md-4" data-aos="fade-up" data-aos-duration="1500">
-                        <a href="img/sih3.jpg" target="_blank"><img src="img/sih3.jpg" class="img-fluid" alt=""></a>
-                    </div>
-                </div>
-                <br><br>
-                <ul data-aos="fade-up" data-aos-duration="1500">
-                    <li><b>Front-end technologies:</b>
-                        <ul>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>JavaScript</li>
-                            <li>BootStrap</li>
-                        </ul>
-                    </li>
-                </ul>
-                <ul data-aos="fade-up" data-aos-duration="1500">
-                    <li><b>Back-end technologies:</b>
-                        <ul>
-                            <li>PHP</li>
-                            <li>SQL</li>
-                            <li>MySQL Database</li>
-                        </ul>
-                    </li>
-                </ul>
-                <br>
-            </p>
-            
-        </div>
-
-    </div>
-
-
-
-    <footer class="bg-white text-center text-lg-start" >
-        <!-- Grid container -->
-        <div class="container p-4 pb-0" data-aos="zoom-in" data-aos-duration="2000">
-            <div class="row">
-                <!--Grid column-->
-                <hr>
-                <h5 class="text-uppercase font-weight-bold text-center mb-3 mt-2" style="font-family:cursive;">Follow me on social media</h5>
-                <ul class="socialIcons">
-                    <li class="linkedin"><a href="https://www.linkedin.com/in/omkar-santosh-raut/" target="_blank"><i class="fa fa-fw fa-linkedin"></i>LinkedIn</a></li>
-                    <li class="github"><a href="https://github.com/omkarsantoshraut" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a></li>
-                    <li class="facebook"><a href="https://www.facebook.com/omkar.raut.94849/" target="_blank"><i class="fa fa-fw fa-facebook"></i>Facebook</a></li>
-                    <li class="twitter"><a href="https://twitter.com/Omkar56694166" target="_blank"><i class="fa fa-fw fa-twitter"></i>Twitter</a></li>
-                    <li class="instagram"><a href="https://www.instagram.com/omkaraut333/" target="_blank"><i class="fa fa-fw fa-instagram"></i>Instagram</a></li>
-                    <li class="whatsapp"><a href="https://wa.me/917559326095?text=Hello,%20Omkar.%20I%20want%20to%20talk%20to%20you." target="_blank"><i class="fa fa-fw fa-whatsapp"></i>WhatsApp</a></li>
-                </ul>
-
-            </div>
-            <!-- Grid container -->
-        </div>
-
-        <!-- Copyright -->
-        <div class="text-center p-2" style="background-color: black; color: white;">
-            © 2021 Copyright:
-            <a class="text-light" href="index.html">Omkar Raut</a>
-        </div>
-        <!-- Copyright -->
-    </footer>
-
-    <!-- jQuery CDN - Slim version (=without AJAX) -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-   
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
-
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $('#sidebar, #content').toggleClass('active');
-            $('.collapse.in').toggleClass('in');
-            $('a[aria-expanded=true]').attr('aria-expanded', 'false');
-
-            $('#sidebarCollapse').on('click', function () {
-                $('#sidebar, #content').toggleClass('active');
-                $('.collapse.in').toggleClass('in');
-                $('a[aria-expanded=true]').attr('aria-expanded', 'false');
-            });
-        });
-    </script>
-
-
-
-
-
-
-
     
+            <!-- Copyright -->
+            <div class="text-center pb-2" style="background-color: black; color: white;">
+                © 2023 Copyright:
+                <a class="text-light" href="index.html">Omkar Raut</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+    </section>
+    <!-- FOOTER SECTION END -->
 
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <!-- SCRIPT FILE ATTACHMENT START -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/script.js"></script>
-
     <script>
         AOS.init();
-      </script>
+    </script>
+    <!-- SCRIPT FILE ATTACHMENT START -->
   </body>
 </html>
